@@ -1,14 +1,12 @@
 def f(n, s):
   print()
-  
-  if n == 0:
-    return ''
-    
-  else:
-    
-    s = str(n) + ' '
-    s = f(n-1, s) + str(n) + ' '
+  if n < 1:
+
     return s
+  
+  else:
+
+    return f(n-1, str(n) + ' ' + s)
 
 res = f(10, '')
 print()

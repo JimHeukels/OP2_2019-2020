@@ -1,8 +1,8 @@
-f1 = lambda  x : x * 2 
-f2 = lambda  x : x + 1 
-f3 = lambda  x : x + '*'
-f4 = lambda  x, y : '<' + str(x) + ' ' + '-' + ' ' + str(y) + '>' 
-f5 = lambda  x, y : str(y) + ' --> ' + str(x)
+f1 = lambda x : x * 2  
+f2 = lambda x : x + 1  
+f3 = lambda x : str(x) + '*'   
+f4 = lambda x, y : '<' + str(x) + ' - ' + str(y) + '>'  
+f5 = lambda x, y : str(y) + ' --> ' + str(x)   
 
 v = 5
 s = 'bim'
